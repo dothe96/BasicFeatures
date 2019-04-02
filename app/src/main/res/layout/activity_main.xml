@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="35dp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:background="#33CCFF"
+        android:text="List Features" />
+
+    <Button
+        android:id="@+id/getContacts"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_weight="1"
+        android:text="Get Contacts" />
+
+    <Button
+        android:id="@+id/writeContacts"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_weight="1"
+        android:text="Write Contacts" />
+
+    <Button
+        android:id="@+id/getCallLog"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_weight="1"
+        android:text="Get Call Log"/>
+
+    <Button
+        android:id="@+id/writeCallLog"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_weight="1"
+        android:text="Write Call Log" />
+
+    <Button
+        android:id="@+id/getMessage"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_weight="1"
+        android:text="Get Message" />
+
+    <Button
+        android:id="@+id/writeMessage"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_weight="1"
+        android:text="Write Message" />
+
+    <Button
+        android:id="@+id/getCalendar"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_weight="1"
+        android:text="Get Calendar" />
+
+    <Button
+        android:id="@+id/writeCalendar"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_weight="1"
+        android:text="Write Calendar" />
+</LinearLayout>
